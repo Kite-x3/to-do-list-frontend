@@ -1,0 +1,10 @@
+.TaskBox {
+  background-color: rgb(0, 158, 121);
+  width: fit-content;
+  height: fit-content;
+  margin: 1rem;
+  padding: 1rem;
+}
+.TaskBox h5 {
+  margin-bottom: 0.5rem;
+}

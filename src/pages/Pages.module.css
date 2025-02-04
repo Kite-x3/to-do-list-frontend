@@ -1,0 +1,63 @@
+.RegisterPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  padding: 2rem 3rem;
+  gap: 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.field label {
+  padding: 0 0.5rem;
+  margin-bottom: 0.2rem;
+  width: fit-content;
+  border-bottom: 1px solid var(--accent-color);
+}
+
+input {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  border: 2px solid var(--border-color);
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  border-color: var(--accent-color);
+  outline: none;
+  box-shadow: 0 0 4px var(--accent-color);
+}
+
+button {
+  padding: 0.8rem;
+  border-radius: 1rem;
+  background-color: var(--accent-color);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  font-size: 0.9rem;
+}
+
+button:hover {
+  background-color: var(--button-hover); /* Чуть темнее при наведении */
+}

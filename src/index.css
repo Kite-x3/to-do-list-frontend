@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+}
+
+:root {
+  font-family: 'Ubuntu', 'Nunito', sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary-color: #172228; /* Основной цвет формы (тёмно-синий) */
+  --background-color: #0b161c; /* Тёмный фон страницы */
+  --accent-color: rgb(165, 210, 255); /* Ледяной синий для акцентов */
+  --text-color: #d6e8f0; /* Светлый текст */
+  --border-color: #3a5365; /* Серый оттенок для границ */
+  --input-bg: #2f363b; /* Фон инпутов */
+  --button-hover: #a1b4d2;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  min-height: 100vh;
+}
