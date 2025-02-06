@@ -20,11 +20,13 @@ export const RegisterPage = () => {
       return
     }
     setError('')
+
+    //fetch
   }
 
   return (
-    <div className={classes.RegisterPage}>
-      <form ref={formRef} onSubmit={handleSubmit} className={classes.Register}>
+    <div className={classes.Container}>
+      <form ref={formRef} onSubmit={handleSubmit} className={classes.AuthForm}>
         <div className={classes.field}>
           <label htmlFor='email'>Email</label>
           <input
@@ -48,7 +50,7 @@ export const RegisterPage = () => {
         </div>
 
         <div className={classes.field}>
-          <label htmlFor='confirmPassword'>Подтвердите пароль</label>
+          <label htmlFor='confirmPassword'>Повторите пароль</label>
           <input
             id='confirmPassword'
             type='password'

@@ -1,4 +1,4 @@
-.RegisterPage {
+.Container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,7 +6,7 @@
   height: 100vh;
 }
 
-.Register {
+.AuthForm {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,6 +16,11 @@
   gap: 1.5rem;
   border-radius: 1.5rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.ToDiffAuth{
+  margin-top: 1rem;
+  font-size: 0.7rem;
 }
 
 .field {
